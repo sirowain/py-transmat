@@ -23,11 +23,11 @@ First of all you'll need a valid API Key from [WeTransfer Developers portal](htt
 
     transmat -u file1 file2 ..
 
-You can also pass a message to be shown in the WeTransfer page
+You can also attach a message to be displayed on the WeTransfer page
     
-    transmat -u file1 file2 .. -m "Here's the files you needed!"
+    transmat -u file1 file2 .. -m "Write your message here"
     
 #### Download files
 
     transmat -d https://we.tl/abcdef... 
-Multiple files download are automatically zipped by WeTransfer
+Multiple files downloads are automatically zipped by WeTransfer
